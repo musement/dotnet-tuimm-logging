@@ -1,0 +1,15 @@
+{
+  "name": "Musement Logging Extensions",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "ms-dotnettools.csharp",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "tintoy.msbuild-project-tools",
+    "logerfo.sln-support",
+    "formulahendry.dotnet-test-explorer",
+    "ms-azuretools.vscode-docker"
+  ],
+  "shutdownAction": "stopContainer",
+  "remoteUser": "vscode"
+}
