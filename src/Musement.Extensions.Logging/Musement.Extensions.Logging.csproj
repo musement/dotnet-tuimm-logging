@@ -5,6 +5,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Authors>Musement;Fabio Di Peri</Authors>
+    <Description>A Serilog formatter</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/musement/dotnet-tuimm-logging</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/musement/dotnet-tuimm-logging</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Serilog" Version="2.10.0" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="4.2.0" />
